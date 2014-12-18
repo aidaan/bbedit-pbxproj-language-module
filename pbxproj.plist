@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMLanguageCode</key>
+	<string>pbxj</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>pbxproj</string>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>archiveVersion</string>
+		<string>baseConfigurationReference</string>
+		<string>buildActionMask</string>
+		<string>buildConfigurationList</string>
+		<string>buildConfigurations</string>
+		<string>buildPhases</string>
+		<string>buildSettings</string>
+		<string>children</string>
+		<string>classes</string>
+		<string>compatibilityVersion</string>
+		<string>containerPortal</string>
+		<string>defaultConfigurationIsVisible</string>
+		<string>defaultConfigurationName</string>
+		<string>dependencies</string>
+		<string>developmentRegion</string>
+		<string>dstPath</string>
+		<string>dstSubfolderSpec</string>
+		<string>explicitFileType</string>
+		<string>fileEncoding</string>
+		<string>fileRef</string>
+		<string>files</string>
+		<string>hasScannedForEncodings</string>
+		<string>inputPaths</string>
+		<string>isa</string>
+		<string>knownRegions</string>
+		<string>lastKnownFileType</string>
+		<string>mainGroup</string>
+		<string>name</string>
+		<string>objectVersion</string>
+		<string>objects</string>
+		<string>outputPaths</string>
+		<string>path</string>
+		<string>productInstallPath</string>
+		<string>productName</string>
+		<string>productReference</string>
+		<string>productRefGroup</string>
+		<string>productType</string>
+		<string>projectDirPath</string>
+		<string>projectReferences</string>
+		<string>projectRoot</string>
+		<string>proxyType</string>
+		<string>remoteGlobalIDString</string>
+		<string>remoteInfo</string>
+		<string>rootObject</string>
+		<string>runOnlyForDeploymentPostprocessing</string>
+		<string>settings</string>
+		<string>shellPath</string>
+		<string>shellScript</string>
+		<string>sourceTree</string>
+		<string>target</string>
+		<string>targetProxy</string>
+		<string>targets</string>
+	</array>
+	<key>BBLMPredefinedNameList</key>
+	<array>
+		<string>PBXBuildFile</string>
+		<string>PBXBuildPhase</string>
+		<string>PBXCopyFilesBuildPhase</string>
+		<string>PBXFrameworksBuildPhase</string>
+		<string>PBXHeadersBuildPhase</string>
+		<string>PBXResourcesBuildPhase</string>
+		<string>PBXShellScriptBuildPhase</string>
+		<string>PBXSourcesBuildPhase</string>
+		<string>PBXContainerItemProxy</string>
+		<string>PBXFileElement</string>
+		<string>PBXFileReference</string>
+		<string>PBXGroup</string>
+		<string>PBXVariantGroup</string>
+		<string>PBXTarget</string>
+		<string>PBXAggregateTarget</string>
+		<string>PBXLegacyTarget</string>
+		<string>PBXNativeTarget</string>
+		<string>PBXProject</string>
+		<string>PBXTargetDependency</string>
+		<string>XCBuildConfiguration</string>
+		<string>XCConfigurationList</string>
+	</array>
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.pbxproj</string>
+		</dict>
+	</array>
+	<key>BBLMPreferredFilenameExtension</key>
+	<string>pbxproj</string>
+	<key>BBLMSupportsTextCompletion</key>
+	<true/>
+	<key>BBLMCanSpellCheckCodeRuns</key>
+	<false/>
+	<key>BBLMCommentLineDefault</key>
+	<string>//</string>
+	<key>BBLMCommentPrefixDefault</key>
+	<string>/*</string>
+	<key>BBLMCommentSuffixDefault</key>
+	<string>*/</string>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	<key>Language Features</key>
+	<dict>
+		<key>Identifier and Keyword Character Class</key>
+		<string>A-Za-z_0-9</string>
+		<key>Open Parameter Lists</key>
+		<string>(</string>
+		<key>Close Parameter Lists</key>
+		<string>)</string>
+		<key>Open Statement Blocks</key>
+		<string>{</string>
+		<key>Close Statement Blocks</key>
+		<string>}</string>
+		<key>Comment Pattern</key>
+		<string><![CDATA[
+		(?x:
+			(?>  //  [^\r]*              \r)    (?# single line comment)
+		  | (?>  /\* (                          (?# multiline comment)
+		  					[^/*] 
+		  			  	|	/(?=[^*])	(?# a "/" not followed by "*")
+		  			  	|	\*(?=[^/])	(?# a "*" not followed by "/")
+		  				|	\r
+		  				|	(?R)		(?# recursive match to handle nested comments)
+		  			 )*? 
+		  		 \*/)
+		)
+		]]></string>
+		<key>String Pattern</key>
+		<string><![CDATA[
+		(?x:
+			(?>	"	(
+						[^"\r\\]	(?# match anything potential ending quote, new line, or start of escape sequence)
+					|	\\.			(?# match any escape sequence pair)
+					)*?
+				"
+			)
+		)
+		]]></string>
+	</dict>
+</dict>
+</plist>
