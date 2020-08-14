@@ -181,6 +181,34 @@
 		<string>{</string>
 		<key>Close Statement Blocks</key>
 		<string>}</string>
+		<key>Number Pattern</key>
+		<string><![CDATA[
+		(?x: 							(?# this just turns on extended syntax, which allows whitespace and comments)
+			(?<![\d\w.])				(?# must not be preceded by a digit or word char or period)
+			(?: 						(?# non-capturing group for alternation)
+										(?# version 1: hex notation like 0x0123456789abcdef)
+				(?:0x[[:xdigit:]]+)		(?# the number written in hex form)
+				|
+				(?: 					(?# version 2: all other numbers, including whole numbers, decimals and exponentials)
+					[-+]?				(?# optional plus or minus sign is included as part of the number)
+					(?: 				(?# non-capturing group for alternation)
+						\d+\.\d+ 		(?# version 2a: digits followed by a decimal followed by digits)
+						|
+						\d+ 			(?# version 2b: just digits)
+					)
+					(?: 				(?# optional exponent notation)
+						[eE][-+]? 		(?# with optional pos/neg)
+						\d+ 			(?# numeric portion of the exponent)
+					)?
+				)
+				|
+				YES						(?# positive boolean)
+				|
+				NO						(?# negative boolean)
+			)
+			(?=\b) 						(?# required word boundary after number. Here a decimal is fine.)
+		)
+		]]></string>
 		<key>Comment Pattern</key>
 		<string><![CDATA[
 		(?x:
