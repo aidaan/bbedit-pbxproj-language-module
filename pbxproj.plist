@@ -108,6 +108,15 @@
 		<string>wrapsLines</string>
 		<string>xcLanguageSpecificationIdentifier</string>
 	</array>	
+	<key>BBLMKeywordPatterns</key>
+	<array>
+		<dict>
+			<key>RunKind</key>
+			<string>com.barebones.bblm.variable</string>
+			<key>Pattern</key>
+			<string>[0-9A-F]{24}</string>
+		</dict>
+	</array>
 	<key>BBLMPredefinedNameList</key>
 	<array>
 		<string>PBXAggregateTarget</string>
