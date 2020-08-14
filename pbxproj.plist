@@ -15,16 +15,25 @@
 	<key>BBLMKeywordList</key>
 	<array>
 		<string>archiveVersion</string>
+		<string>attributes</string>
 		<string>baseConfigurationReference</string>
+		<string>branch</string>
 		<string>buildActionMask</string>
+		<string>buildArgumentsString</string>
 		<string>buildConfigurationList</string>
 		<string>buildConfigurations</string>
 		<string>buildPhases</string>
+		<string>buildRules</string>
 		<string>buildSettings</string>
+		<string>buildToolPath</string>
+		<string>buildWorkingDirectory</string>
 		<string>children</string>
 		<string>classes</string>
+		<string>comments</string>
 		<string>compatibilityVersion</string>
+		<string>compilerSpec</string>
 		<string>containerPortal</string>
+		<string>currentVersion</string>
 		<string>defaultConfigurationIsVisible</string>
 		<string>defaultConfigurationName</string>
 		<string>dependencies</string>
@@ -33,63 +42,102 @@
 		<string>dstSubfolderSpec</string>
 		<string>explicitFileType</string>
 		<string>fileEncoding</string>
+		<string>filePatterns</string>
 		<string>fileRef</string>
+		<string>fileType</string>
 		<string>files</string>
 		<string>hasScannedForEncodings</string>
+		<string>includeInIndex</string>
+		<string>indentWidth</string>
+		<string>inputFiles</string>
 		<string>inputPaths</string>
+		<string>isEditable</string>
 		<string>isa</string>
+		<string>kind</string>
 		<string>knownRegions</string>
+		<string>languageSpecificationIdentifier</string>
 		<string>lastKnownFileType</string>
+		<string>lineEnding</string>
 		<string>mainGroup</string>
+		<string>maximumVersion</string>
+		<string>minimumVersion</string>
 		<string>name</string>
 		<string>objectVersion</string>
 		<string>objects</string>
+		<string>outputFiles</string>
+		<string>outputFilesCompilerFlags</string>
 		<string>outputPaths</string>
+		<string>package</string>
+		<string>packageProductDependencies</string>
+		<string>packageReferences</string>
+		<string>passBuildSettingsInEnvironment</string>
 		<string>path</string>
+		<string>platformFilter</string>
+		<string>plistStructureDefinitionIdentifier</string>
 		<string>productInstallPath</string>
 		<string>productName</string>
-		<string>productReference</string>
+		<string>productRef</string>
 		<string>productRefGroup</string>
+		<string>productReference</string>
 		<string>productType</string>
 		<string>projectDirPath</string>
 		<string>projectReferences</string>
 		<string>projectRoot</string>
+		<string>projectRoots</string>
 		<string>proxyType</string>
+		<string>reference</string>
 		<string>remoteGlobalIDString</string>
 		<string>remoteInfo</string>
+		<string>remoteRef</string>
+		<string>revision</string>
 		<string>rootObject</string>
 		<string>runOnlyForDeploymentPostprocessing</string>
+		<string>script</string>
 		<string>settings</string>
 		<string>shellPath</string>
 		<string>shellScript</string>
+		<string>showEnvVarsInLog</string>
 		<string>sourceTree</string>
+		<string>tabWidth</string>
 		<string>target</string>
 		<string>targetProxy</string>
 		<string>targets</string>
-	</array>
+		<string>usesTabs</string>
+		<string>version</string>
+		<string>versionGroupType</string>
+		<string>wrapsLines</string>
+		<string>xcLanguageSpecificationIdentifier</string>
+	</array>	
 	<key>BBLMPredefinedNameList</key>
 	<array>
+		<string>PBXAggregateTarget</string>
 		<string>PBXBuildFile</string>
 		<string>PBXBuildPhase</string>
-		<string>PBXCopyFilesBuildPhase</string>
-		<string>PBXFrameworksBuildPhase</string>
-		<string>PBXHeadersBuildPhase</string>
-		<string>PBXResourcesBuildPhase</string>
-		<string>PBXShellScriptBuildPhase</string>
-		<string>PBXSourcesBuildPhase</string>
+		<string>PBXBuildRule</string>
+		<string>PBXContainerItem</string>
 		<string>PBXContainerItemProxy</string>
+		<string>PBXCopyFilesBuildPhase</string>
 		<string>PBXFileElement</string>
 		<string>PBXFileReference</string>
+		<string>PBXFrameworksBuildPhase</string>
 		<string>PBXGroup</string>
-		<string>PBXVariantGroup</string>
-		<string>PBXTarget</string>
-		<string>PBXAggregateTarget</string>
+		<string>PBXHeadersBuildPhase</string>
 		<string>PBXLegacyTarget</string>
 		<string>PBXNativeTarget</string>
 		<string>PBXProject</string>
+		<string>PBXResourcesBuildPhase</string>
+		<string>PBXRezBuildPhase</string>
+		<string>PBXShellScriptBuildPhase</string>
+		<string>PBXSourcesBuildPhase</string>
+		<string>PBXSourceTree</string>
+		<string>PBXTarget</string>	
 		<string>PBXTargetDependency</string>
+		<string>PBXVariantGroup</string>
+		<string>PBXVersionGroup</string>
 		<string>XCBuildConfiguration</string>
 		<string>XCConfigurationList</string>
+		<string>XCRemoteSwiftPackageReference</string>
+		<string>XCSwiftPackageProductDependency</string>
 	</array>
 	<key>BBLMSuffixMap</key>
 	<array>
